@@ -1,0 +1,16 @@
+{
+    "site": "default",
+    "controller": "onchain-query",
+    "stakeAddress": "stake1u9hx6hw6hs8rkjfy48ejmfst6zh46j54mejweup94fuvkdqhm94vs",
+    "query":
+    {
+        "account": false,
+        "accountAsset": true,
+        "address": false,
+        "latestBlock": false,
+        "networkInfo": false,
+        "latestEpoch" : false,
+        "health": false,
+        "pools": false
+    }
+}	

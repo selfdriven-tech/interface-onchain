@@ -1,0 +1,18 @@
+{
+    "site": "default",
+    "namespace": "blockfrost",
+    "controller": "onchain-query",
+    "_address": "addr1vxwxlun09tnaf7hsat5znyqaflfacmnq9t579c69uqhg75g2g7742",
+    "__address": "addr1q98ztnjfnwzyzakpcany4n60s76jy58k9hdde4sl68jyahexj04qy6cdqd5yktnvkytplxppw8a30tm0cu84kq8nymgssw53ld",
+    "___address": "addr1qxywzurp0fuqwzdmmk5lyymxdf3d02djewnjeqhmeesdqwtm4n2u0c7u835rza8f6yv8wcvrwwnxzhku28f2mys4zhnq7xp77p",
+    "address": "addr1qx6zh0afqkx6tqhw7y4eh5jt5lw8pnqny3n0nlgu7tqvxxtwd4wa40qw8dyjf20n9knqh590t49fthnyanczt2ncev6q7096ux",
+    "query":
+    {
+        "address": true,
+        "latestBlock": false,
+        "networkInfo": false,
+        "latestEpoch" : false,
+        "health": false,
+        "pools": false
+    }
+}	

@@ -1,0 +1,6 @@
+{
+    "site": "selfdriven-lab",
+    "namespace": "process",
+    "controller": "onchain-process-transaction-prepare-get-keys",
+	"accountkey": "a1f2db25-3317-41db-bb16-46e926366897"
+}	

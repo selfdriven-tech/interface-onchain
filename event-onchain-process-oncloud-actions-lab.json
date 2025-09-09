@@ -1,0 +1,6 @@
+{
+    "site": "selfdriven-lab",
+    "namespace": "process",
+    "controller": "onchain-process-oncloud-actions",
+	"actionTypes": "setting:selfdriven.actionTypes.achievement"
+}	

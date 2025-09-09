@@ -1,0 +1,107 @@
+{
+	"entityos": {
+		"hostname": "api.entityos.cloud",
+		"logon": "...",
+		"email": "...",
+		"testing": {
+			"status": "true",
+			"showData": "true",
+			"break": "-"
+		},
+		"convert": "true"
+	},
+	"protect": {
+		"notes": "selfdrivenOcto keys for encryption/decryption and signing of data."
+	},
+	"onchain": {
+		"cardano": {
+			"blockfrost": {
+				"uri": "https://blockfrost.io",
+				"projectId": "..."
+			},
+			"maestro": {
+				"apiKey": "..."
+			},
+			"assets": {
+				"sda": {
+					"label": "18300",
+					"policyID": "14302595916298c0ba104801034dbc784d1ece283c943dfab0524d0d"
+				}
+			},
+			"octo": {
+				"addresses": {
+					"transaction": "addr1v98xcd2q35kgt9cl8pzj46ztgzkx5rrpt9xe97z3e5yxfdcntphg7",
+					"account": "stake1u83a6ptkyr8tyu838xj8p79crhw76emttcn923z47stms9c52c6zp"
+				},
+				"assetName": "octolab",
+				"policy": {
+					"type": "all",
+					"scripts": [
+						{
+							"type": "sig",
+							"keyHash": "{{octopubkeyhash}}"
+						}
+					]
+				},
+				"policyID": "a148d31a6eb4e2bb62133e204804931868cf4beb6e1a407a9e3efe99",
+				"metadataLabel": 18300,
+				"metadataLabelName": "SDA",
+				"includeSubjectSkill": true,
+				"includeSubjectID": true
+			},
+			"inputsminimumlovelace": "10000000"
+		}
+	},
+	"selfdriven": {
+		"actionTypes": {
+			"achievement": "1741"
+		}
+	},
+	"rules": [
+		{
+			"env": "password-lab",
+			"set": "entityos.password",
+			"default": "..."
+		},
+		{
+			"env": "keyLeVUhtcr5uEfoEfp-lab",
+			"set": "protect.key",
+			"default": "..."
+		},
+		{
+			"env": "ivmeXcO9yL21O8f1JT-lab",
+			"set": "protect.iv",
+			"default": "..."
+		},
+		{
+			"env": "prvkeyhexMxsgP9vMHe5YSSex-lab",
+			"set": "protect.sign.privateKeyHex",
+			"default": "..."
+		},
+		{
+			"env": "pubkeyhexY7YFBxrxAQzEvWVg-lab",
+			"set": "protect.sign.publicKeyHex",
+			"default": "..."
+		},
+		{
+			"env": "keyidKpZYMY57LcjaTeGp-lab",
+			"set": "protect.sign.keyID",
+			"default": "..."
+		},
+		{
+			"env": "octoentropyjKWgCl2jkQJbG0NFa4-lab",
+			"set": "onchain.cardano.octo.entropy",
+			"default": "..."
+		},
+		{
+			"env": "octomnemonicGcK2rKhpOHLSHUrh-lab",
+			"set": "onchain.cardano.octo.mnemonic",
+			"default": "..."
+		},
+		{
+			"env": "octopubkeyhashjKWgCl2jkQJbG0NFa4-lab",
+			"set": "onchain.cardano.octo.pubkeyhash",
+			"default": "..."
+		}
+	]
+}

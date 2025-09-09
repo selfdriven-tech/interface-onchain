@@ -1,0 +1,10 @@
+{
+	"context": "lab",
+	"body":
+	{
+		"method": "init-keys",
+		"data": {}
+	},
+	"queryStringParameters": {},
+	"headers": {}
+}

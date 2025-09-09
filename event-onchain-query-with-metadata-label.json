@@ -1,0 +1,21 @@
+{
+    "site": "default",
+    "namespace": "blockfrost",
+    "controller": "onchain-query",
+    "metadata":
+    {
+        "label": "115100105",
+        "txHash": "b1ba48982d4e14fd95e00c3610984140944c132a12ee22c4d7a61c0ad4014a72",
+        "policyID": "92be578d1c063b70edf9b2ca0b53c7a58142b65eba43a5b55bdd6cb7"
+    },
+    "query":
+    {
+        "address": false,
+        "latestBlock": false,
+        "networkInfo": false,
+        "latestEpoch" : false,
+        "health": false,
+        "pools": false,
+        "metadata": true
+    }
+}	

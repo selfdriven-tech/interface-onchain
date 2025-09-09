@@ -1,0 +1,21 @@
+{
+    "site": "default",
+    "namespace": "blockfrost",
+    "controller": "onchain-query",
+    "_stakeAddress": "stake1uynf86szdvxsx6zt9ektz9slnqshr7ch4ahuwr6mqrejd5ggqe23m",
+    "stakeAddress": "stake1uxlnlz496ccg4uj3x2d482aaq2aag5wzfvac4fudsr0mm8gc97st3",
+    "_address": "addr1qxywzurp0fuqwzdmmk5lyymxdf3d02djewnjeqhmeesdqwtm4n2u0c7u835rza8f6yv8wcvrwwnxzhku28f2mys4zhnq7xp77p",
+    "address": "addr1qx5kr6zh5msexuza8yzjuuasr45p0rtwhnwqym0ytydck0dl8792t43s3te9zv5m2w4m6q4m63guyjem32ncmqxlhkwsg3h5ac",
+    "query":
+    {
+        "account": false,
+        "asset": true,
+        "accountAsset": false,
+        "address": false,
+        "latestBlock": false,
+        "networkInfo": false,
+        "latestEpoch" : false,
+        "health": false,
+        "pools": false
+    }
+}	

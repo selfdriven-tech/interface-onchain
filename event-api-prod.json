@@ -1,0 +1,11 @@
+{
+	"_context": "prod",
+	"body":
+	{
+		"apikey": "aa14020c-f24b-4b86-9d12-73c97c2958cd", 
+		"authkey": "xDVPXjY......",
+		"method": "[your domain specific method name]"
+	},
+	"queryStringParameters": {},
+	"headers": {}
+}

@@ -1,0 +1,17 @@
+{
+    "site": "transaction",
+    "namespace": "cli.transaction",
+    "controller": "onchain-transaction-create",
+    "sourceDataFileName": "data/selfdriven-skills-sources-1.0.0.json",
+    "metadataLabel": "115100105",
+    "policyID": "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17",
+    "tokenID": "SDI",
+    "address": "addr1vysu5nv7jnxvssz6rhld54g3ps6yml0uks0q4qp3mnyvj6qy72dm8",
+    "txIn": "0ad0d01f2d36b98d19c437f962efb64a16ce7139644ff8eed0a11c0276cfb1ae#0",
+    "mintingScript": "selfdriven/sdi/sdi-policy.script",
+    "sourceDataIndexStart": 0,
+    "sourceDataIndexEnd": 99,
+    "notesPrefix": "Skill Source; ",
+    "typeSDI": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+    "sourceNamespace": "selfdriven.skills.sources"
+}	

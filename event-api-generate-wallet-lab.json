@@ -1,0 +1,15 @@
+{
+	"context": "selfdriven-lab",
+	"body":
+	{
+		"_context": "selfdriven-lab",
+		"method": "generate-wallet",
+		"data": {}
+	},
+	"_body": "eyJtZXRob2QiOiJnZW5lcmF0ZS13YWxsZXQiLCJkYXRhIjp7fX0=",
+	"queryStringParameters": {},
+	"headers":
+	{
+		"x-api-key": "2174af85-2728-4330-94dc-0b8be2b12947|kFbqCip4DAioI28wx5Sobef6qtldbO0r6MV2SCWJ5sywKkuH"
+	}
+}

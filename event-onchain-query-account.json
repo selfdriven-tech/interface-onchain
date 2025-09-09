@@ -1,0 +1,17 @@
+{
+    "site": "default",
+    "namespace": "blockfrost",
+    "controller": "onchain-query",
+    "stakeAddress": "stake1uynf86szdvxsx6zt9ektz9slnqshr7ch4ahuwr6mqrejd5ggqe23m",
+    "query":
+    {
+        "account": true,
+        "assets": false,
+        "address": false,
+        "latestBlock": false,
+        "networkInfo": false,
+        "latestEpoch" : false,
+        "health": false,
+        "pools": false
+    }
+}	

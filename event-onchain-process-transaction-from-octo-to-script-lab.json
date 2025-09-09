@@ -1,0 +1,10 @@
+{
+	"description": "Send lovelace (2 Ada) FROM Octo account TO Test account.",
+    "site": "selfdriven-lab",
+    "namespace": "process",
+    "controller": "onchain-process-transaction",
+	"useMnemonic": true,
+	"sendamountlovelace": "4000000",
+	"recieveraddress": "addr1w97nkgtwc4e6hn0kg492jtxeytvhmy0mqxpvsdn7qakqnaghaa9re"
+}	
+

@@ -1,0 +1,10 @@
+{
+	"context": "lab",
+	"body":
+	{
+		"method": "get-protocol-parameters",
+		"data": {}
+	},
+	"queryStringParameters": {},
+	"headers": {}
+}

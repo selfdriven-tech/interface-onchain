@@ -1,0 +1,54 @@
+{
+	"site": "selfdriven-lab",
+	"namespace": "process",
+	"controller": "onchain-process-get-script-address-utxos",
+	"script": {
+		"type": "atLeast",
+		"required": 1,
+		"scripts": [
+			{
+				"type": "sig",
+				"keyHash": "4e6c35408d2c85971f38452ae84b40ac6a0c61594d92f851cd0864b7"
+			},
+			{
+				"type": "sig",
+				"keyHash": "47be87958f74acc8ef7259c58dcd5249e132672d98b113289172a467"
+			}
+		]
+	},
+	"_script": {
+		"type": "all",
+		"scripts": [
+			{
+				"type": "atLeast",
+				"required": 4,
+				"scripts": [
+					{
+						"type": "sig",
+						"keyHash": "547c8dca23e870884681ad98385a333322b17e940973f46b45117093"
+					},
+					{
+						"type": "sig",
+						"keyHash": "f671302c95343f413e03b6a54e5a7d47753527cbfa1087ae92378478"
+					},
+					{
+						"type": "sig",
+						"keyHash": "4d7e2f8078c90df86e605daecb84e5def9738ba90138c3e86358d144"
+					},
+					{
+						"type": "sig",
+						"keyHash": "0e37debab3a29bd0c9bb38ca37231fcbf6e1b478eb3238cf6db9d4f7"
+					},
+					{
+						"type": "sig",
+						"keyHash": "4c81c04139ab537fdc540112ca8b4f2cf087b0a7eee18c7a257e6842"
+					},
+					{
+						"type": "sig",
+						"keyHash": "6fa5793abecc0b5645686b9c7e0d9cb235fe70447ce65be3f0732db9"
+					}
+				]
+			}
+		]
+	}
+}

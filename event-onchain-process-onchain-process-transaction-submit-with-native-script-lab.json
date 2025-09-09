@@ -1,0 +1,22 @@
+{
+	"site": "selfdriven-lab",
+	"namespace": "process",
+	"controller": "onchain-process-transaction-submit-with-native-script",
+	"script": {
+		"type": "atLeast",
+		"required": 1,
+		"scripts": [
+			{
+				"type": "sig",
+				"keyHash": "4e6c35408d2c85971f38452ae84b40ac6a0c61594d92f851cd0864b7"
+			},
+			{
+				"type": "sig",
+				"keyHash": "47be87958f74acc8ef7259c58dcd5249e132672d98b113289172a467"
+			}
+		]
+	},
+	"scriptAddress": "addr1w97nkgtwc4e6hn0kg492jtxeytvhmy0mqxpvsdn7qakqnaghaa9re",
+	"sendamountlovelace": "4000000",
+	"recieveraddress": "addr1vyqncclfdjwv2lwzt9wsvvw8ttl8fzqrxxw7p4fywxpfpqs8vxcvn"
+}

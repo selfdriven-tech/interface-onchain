@@ -1,0 +1,8 @@
+{
+	"description": "Send lovelace to Octo account (self)",
+    "site": "selfdriven-lab",
+    "namespace": "process",
+    "controller": "onchain-process-transaction",
+	"sendamountlovelace": "2000000",
+	"recieveraddress": "addr1v9vztn3dy9agzy20juyu5nf2xdl8f0e6tjqg8heqq8w7hsgqahfd5"
+}	

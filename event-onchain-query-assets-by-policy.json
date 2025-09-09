@@ -1,0 +1,20 @@
+{
+    "site": "default",
+    "namespace": "blockfrost",
+    "controller": "onchain-query",
+    "assets":
+    {
+        "policyID": "96dd4df64ec0857af3a90ebdb5d3318fbef6774fe8c4b50e090af1c6"
+    },
+    "query":
+    {
+        "address": false,
+        "latestBlock": false,
+        "networkInfo": false,
+        "latestEpoch" : false,
+        "health": false,
+        "pools": false,
+        "metadata": false,
+        "assets": true
+    }
+}	

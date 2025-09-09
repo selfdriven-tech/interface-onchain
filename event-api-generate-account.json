@@ -1,0 +1,19 @@
+{
+	"context": "prod",
+	"body":
+	{
+		"_context": "prod",
+		"method": "generate-account",
+		"data":
+		{
+			"userkey": "2f66dc03-a3b9-4380-8af7-f029d4ba29e7",
+      		"conversationkey": "cb4e3565-b850-4fef-8c00-ffc282a0401c",
+			"reset": false
+		}
+	},
+	"queryStringParameters": {},
+	"headers":
+	{
+		"x-api-key": "2174af85-2728-4330-94dc-0b8be2b12947|kFbqCip4DAioI28wx5Sobef6qtldbO0r6MV2SCWJ5sywKkuH"
+	}
+}

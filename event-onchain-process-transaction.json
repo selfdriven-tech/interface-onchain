@@ -1,0 +1,7 @@
+{
+    "site": "selfdriven-prod",
+    "namespace": "process",
+    "controller": "onchain-process-transaction",
+	"sendamountlovelace": "1000000",
+	"recieveraddress": "addr1qyrrmftvyv607uan7h6xwu3skwl6kqmmz4ympzqf6gtrhdtn0vn7p37fq57uf7s0wdj2l6k8a0x09hx9l9zj4awmhrwqnhhads"
+}	

@@ -1,0 +1,28 @@
+{
+	"site": "selfdriven-lab",
+	"namespace": "process",
+	"controller": "onchain-process-transaction-witness-sign",
+	"transaction": {
+		"type": "Tx BabbageEra",
+		"description": "Unsigned transaction from script address",
+		"cborHex": "84a300828258205a2e9c7709bc76c4da028704c2b6b7b6416b34686919b7b15709e20896d72994008258205a2e9c7709bc76c4da028704c2b6b7b6416b34686919b7b15709e20896d72994010182825839014e6c35408d2c85971f38452ae84b40ac6a0c61594d92f851cd0864b7e3dd057620ceb270f139a470f8b81ddded676b5e26554455f417b8171a001e848082581d614e6c35408d2c85971f38452ae84b40ac6a0c61594d92f851cd0864b71a00194372021a0002af39a10181830301828200581c4e6c35408d2c85971f38452ae84b40ac6a0c61594d92f851cd0864b78200581c47be87958f74acc8ef7259c58dcd5249e132672d98b113289172a467f5f6",
+		"network": "Mainnet",
+		"script": {
+			"type": "atLeast",
+			"required": 1,
+			"scripts": [
+				{
+					"type": "sig",
+					"keyHash": "4e6c35408d2c85971f38452ae84b40ac6a0c61594d92f851cd0864b7"
+				},
+				{
+					"type": "sig",
+					"keyHash": "47be87958f74acc8ef7259c58dcd5249e132672d98b113289172a467"
+				}
+			]
+		},
+		"createdAt": "2025-04-02T02:39:17.713Z",
+		"receiverAddress": "addr1q98xcd2q35kgt9cl8pzj46ztgzkx5rrpt9xe97z3e5yxfdlrm5zhvgxwkfc0zwdywruts8waa4nkkh3x24z9taqhhqtsqrucn3",
+		"amountLovelace": "2400000"
+	}
+}
