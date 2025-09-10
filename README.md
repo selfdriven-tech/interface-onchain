@@ -1,4 +1,4 @@
-# seldriven.tech OnChain Interface
+# seldriven OnChain Interface
 
 https://selfdriven.tech
 
